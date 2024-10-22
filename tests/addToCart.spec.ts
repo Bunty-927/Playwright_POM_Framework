@@ -58,6 +58,5 @@ test.describe('testing the Lambda test web feature', () => {
         const checkoutPage = new CheckoutPage(page);
         await checkoutPage.fillPaymentDetails();
 
-        // await page.waitForTimeout(20000)
     })
 })
